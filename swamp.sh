@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo fallocate -l 4G /swapfile
 ls -lh /swapfile
 sudo chmod 600 /swapfile
