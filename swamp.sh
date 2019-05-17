@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo fallocate -l 4G /swapfile
+sudo fallocate -l 2G /swapfile
 ls -lh /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
